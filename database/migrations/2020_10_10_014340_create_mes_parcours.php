@@ -18,7 +18,7 @@ class CreateMesParcours extends Migration
             $table->integer('kilometres');
             $table->integer('parcoursNiv');
             $table->string('commentaires');
-            $table->string('points_de_passages');
+            $table->longText('points_de_passages');
             $table->date('date');
             $table->timestamps();
         });
